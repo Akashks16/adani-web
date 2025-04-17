@@ -8,6 +8,7 @@ export const HomePage = () => {
 
   let bgClass = "bg-default";
   if (path === "invoice-uploader") bgClass = "bg-b";
+  if (path === "payment-approval") bgClass = "bg-a";
 
   return <div className={`homepage  ${bgClass} `}></div>;
 };
